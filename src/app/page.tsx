@@ -437,7 +437,7 @@ export default function EnhancedPortfolio() {
         >
           <nav className="container mx-auto px-6 h-full flex items-center">
             <ul className="flex justify-center space-x-4 overflow-x-auto">
-              {['Home', 'About', 'Projects', 'Skills', 'Achievements', 'Contact'].map((item) => (
+              {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((item) => (
                 <li key={item}>
                   <motion.button
                     onClick={() => scrollToSection(item.toLowerCase())}
